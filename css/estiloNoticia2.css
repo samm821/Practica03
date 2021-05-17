@@ -1,0 +1,45 @@
+#rppIcono{
+    width: 9%;
+    height: 9%;
+}
+
+#header{
+    position: sticky;
+    width:100%;
+    border: 1px solid;
+    background-color: white;
+}
+
+#header h2{ 
+    margin: 4%;
+    float:left; 
+}
+
+#articulo #titulo{
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+#articulo #imagenNoticia {
+   float: left;
+   width: 50%;
+   height: 50%;  
+   margin-bottom: 1%;
+   margin-right: 1%;
+}
+
+#articulo p{
+    text-align: justify;
+    width: 99%;
+
+}
+
+#datos{
+    position: relative;
+    left: 78%;
+}
+
+body{
+    background-color:aquamarine;
+}
