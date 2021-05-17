@@ -1,0 +1,122 @@
+body{
+    border: 0.5px solid;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 200px 70px 600px 250px;
+    grid-template-areas: "cabecera cabecera" 
+                            "menu menu" 
+                            "contenido barraLateral"
+                            "pie pie";
+}
+
+
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+grid-area: cabecera;
+background-color: blueviolet;
+height: fit-content;
+}
+
+header img, header div{
+    float:left;
+}
+
+header a{
+    float: right;
+    background-color: black;
+    border: 2px solid;
+}
+
+nav{
+    grid-area: menu;
+    background-color: lightblue;
+}
+
+/* nav ul{ */
+    /* list-style: none; */
+/* } */
+
+nav li{
+    float: left;
+	list-style: none;
+}
+
+nav li:hover{
+    background-color:gold;
+}
+
+aside{
+    grid-area: barraLateral;
+    background-color: green;
+}
+
+aside *{
+    color: white;
+	margin: 5%;
+}
+
+aside div{
+    background-color: forestgreen;
+}
+
+footer{
+    grid-area: pie;
+    background-color: blue violet;
+    color: white;
+}
+
+footer img{
+    float:left;
+}
+
+footer .secciones{
+    float: left;
+}
+
+footer #piecito{
+    width: 100%;
+    text-align: center;
+    background-color: dark violet;
+    float: left;    
+}
+
+section{
+    grid-area: contenido;
+    background-color: alice blue;
+}
+
+section *{
+    margin: 2%;
+    width: fit-content;
+}
+
+section div *{
+    margin-left: 0px;
+}
+
+
+section .divImg{
+    float: right;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+section em{
+    background-color: plum;
+}
+
+section h3{
+    font-style: italic;
+}
+
+section p{
+    text-align: justify;
+    width: 100%;
+}
