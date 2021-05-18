@@ -1,12 +1,56 @@
-section {
-    padding-left: 22%;
-    padding-right: 22%;
+nav #mnuCurriculum{
+    background-color:royalblue;
 }
 
-section h1{
-    width: 96%;
-    text-align: center;
-    margin: 2%;
+section *{
+    margin: 1.5%;
 }
+
+section div *{
+    margin-left: 0px;
+    
+}
+
+section div{
+    margin-bottom: 4%;
+    width: 97%;
+}
+
+section h3{
+    color:rgb(255, 87, 51);
+    font-style: italic;
+}
+
+section div sup, section div p, section div ul strong{
+    margin-right: 0px;
+    text-align: justify;
+    
+}
+
+section table th{
+    color:darkcyan;
+    font-weight: bolder;
+}
+
+section div table{
+    border:3px solid;
+    margin-right: 0px;
+    border-collapse: collapse; 
+    width: 100%;   
+}
+section div table *{
+    border:3px solid;
+    margin-right: 0px;
+    padding: 1%;
+    text-align: center;
+}
+
+section ul{
+    margin-right: 0%;
+    padding-left: 3%;
+}
+
+
+
 
 
