@@ -2,13 +2,46 @@ nav #mnuContactos{
     background-color:royalblue;
 }
 
-section {
-    padding-left: 22%;
-    padding-right: 22%;
+section *{
+    margin: 2%;
 }
 
-section h1{
-    width: 96%;
-    text-align: center;
+section form, section div{
+    float: left;
+    margin-left: 4%;
+    margin-top: 10%;
+    width: 40%;
+    border: seagreen solid 2px;
+}
+
+section iframe{
     margin: 2%;
+}
+
+label, textarea{
+    display:inline-block;
+    vertical-align:middle;
+}
+
+form h3{
+    width: fit-content;
+}
+
+input, textarea{
+    padding: 0px;
+    width: 70%;
+}
+
+.frmBtn{
+    width: 20% !important;  
+    margin-left: 14%;
+    margin-right:14%;
+    background-color: rgb(11, 83, 69);
+    border: solid 1px;
+    color: white;
+    padding: 2%;
+}
+
+.frmBtn:hover {
+    background-color:royalblue;
 }

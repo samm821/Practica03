@@ -1,14 +1,58 @@
-header a{
-    background-color:royalblue;
-}
-
-section {
-    padding-left: 22%;
-    padding-right: 22%;
-}
-
-section h1{
-    width: 96%;
-    text-align: center;
+section *{
     margin: 2%;
+}
+
+section form{
+    border: seagreen solid 2px;
+    height: 50%;
+    width: 90%;
+    margin-top: 14%;
+    margin-left: 4%;
+}
+
+section #fldDatos{
+    float: left;
+    margin-left: 4%;
+    margin-right: 6%;
+    width: 55%;
+    border: none;
+}
+
+section #fldDatos *{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+section #fldAcciones *{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+
+
+section #fldAcciones{
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 25%;
+    border: none;
+}
+
+input{
+    width: 80%;
+}
+
+.frmBtn{
+    width: 40% !important;  
+    margin-left: 14%;
+    margin-right:14%;
+    background-color: rgb(11, 83, 69);
+    border: solid 1px;
+    color: white;
+    padding: 2%;
+}
+
+.frmBtn:hover {
+    background-color:royalblue;
 }

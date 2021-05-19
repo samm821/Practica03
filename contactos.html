@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEB PERSONAL</title>
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/gridResponsivo.css">
+    <link rel="stylesheet" href="css/contactos.css">
 </head>
 <body>
     <main>
         <header>
-            <img src="img/perfil.jpg" alt="perfil">
+            <img src="img/perfil.jpg" alt="perfil" class="modo2">
             <div>
                 <h1>Samantha Daniela Mendoza Núñez</h1>
                 <h3>Mi Web Personal</h3>  
-                <a href="iniciarSesion.html">Iniciar Sesión</a>
+                <a href="iniciarSesion.html" class="boton">Iniciar Sesión</a>
             </div>          
         </header>
         <nav>
@@ -30,23 +30,21 @@
         <section>
             <form method="post">
                 <h3>Para comunicarse conmigo</h3>
-                <fieldset>
-                    <label for="inpNombre">Nombre:</label>
-                    <input type="text" id="inpNombre"><br>
-                    <label for="inpDni">Email:</label>
-                    <input type="text" id="inpDni" maxlength="9"><br>
-                    <label for="inpEdad">Télefono:</label>
-                    <input type="number" id="inpEdad" maxlength="9"><br>
-                    <label for="txtArgumento">Mensaje:</label>
-                    <textarea name="txtArgumento"></textarea>
-                </fieldset>
-                    <input type="reset" value="Limpiar">
-                    <input type="submit" value="Enviar">
+                <label for="inpNombre">Nombre:</label> 
+                <input type="text" id="inpNombre"><br>
+                <label for="inpEmail">Email:</label> 
+                <input type="email" id="inpEmail"><br>
+                <label for="inpTelefono">Télefono:</label>
+                <input type="" id="inpTelefono" maxlength="9"><br>
+                <label for="txtMensaje">Mensaje:</label>
+                <textarea name="txtMensaje" rows="11" cols="25"></textarea><br>
+                    <input type="reset" value="Limpiar" class="frmBtn">
+                    <input type="submit" value="Enviar" class="frmBtn">
                 </form>
             <div>
                 <h3>Ubicación</h3>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d937.5494296401444!2d-79.83617279037058!3d-6.783744407182886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904cef3185d99981%3A0xee30078dbf1233a5!2sRacarrumi%20289%2C%20Chiclayo%2014008!5e0!3m2!1ses!2spe!4v1621349064521!5m2!1ses!2spe" 
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                width="400" height="300" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </section>
         <aside>
@@ -70,10 +68,10 @@
             </div>
         </aside>
         <footer>
-            <img src="img/perfil.jpg" alt="perfil">
+            <img src="img/perfil.jpg" alt="perfil" class="modo2">
             <div class="secciones">
                 <h4>Información de Contacto</h4>
-                <ul>
+                <ul class="modo2">
                     <li><a href="">Item 01</a></li>
                     <li><a href="">Item 02</a></li>
                     <li><a href="">Item 03</a></li>
@@ -82,7 +80,7 @@
             </div>
             <div class="secciones">
                 <h4>Síguenos en</h4>
-                <ul>
+                <ul class="modo2">
                     <li><a href="">Item 01</a></li>
                     <li><a href="">Item 02</a></li>
                     <li><a href="">Item 03</a></li>
@@ -91,7 +89,7 @@
             </div>
             <div class="secciones">
                 <h4>Enlaces de Interés</h4>
-                <ul>
+                <ul class="modo2">
                     <li><a href="">Item 01</a></li>
                     <li><a href="">Item 02</a></li>
                     <li><a href="">Item 03</a></li>
@@ -100,7 +98,7 @@
             </div>
             <div class="secciones">
                 <h4>Menú</h4>
-                <ul>
+                <ul class="modo2">
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="curriculum.html">Curriculum</a></li>
                     <li><a href="proyectos.html">Proyectos</a></li>
