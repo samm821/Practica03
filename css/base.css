@@ -2,121 +2,52 @@ body{
     margin: 0px auto;
 }
 
-main{
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 0.3fr 2.4fr 0.6fr;
-    grid-template-areas: "menu cabecera cabecera" 
-                        "contenido contenido barraLateral"
-                        "pie pie pie";
-}
-
-header *, nav *, section *, aside *, footer *{
+nav *, section *, aside *, footer *{
     margin: 0px auto;
 }
-
+   
 a:link, a:visited{
-    color: white;
-    font-weight:500;
-    text-decoration: none;
+   color: white;
+   font-weight:500;
+   text-decoration: none; 
 }
 
-header{
-grid-area: cabecera;
-background-color: rgb(218, 247, 166 );
-}
-
-header img, header div{
-    float:left;
-    margin-left: 36px;
+header div{
+    float: left;
+    padding-top: 3.2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 header div h3{
     text-align: end;
-}
+}     
 
-header a{
-    float: right;
-    margin: 10px;
+.boton {
     background-color: rgb(11, 83, 69);
     padding: 1%;
     border: 2px solid;
 }
 
-header div{
-    padding-top: 74.5px;
-    padding-bottom: 74.5px;
-}
-
-nav{
-    grid-area: menu;
-    background-color: rgb(11, 83, 69);
+.boton:hover {
+    background-color:royalblue;
 }
 
 nav ul{
     list-style: none;
-    padding: 0px;
-}
-
-nav li{
-    padding: 7.79%;
-    padding-left: 8.2%;
-    padding-right: 8.2%;
-}
+    padding-left: 0px;
+}  
 
 nav li:hover{
-    background-color:rgb(255, 195, 0 );
-}
-
-nav a:link, nav a:visited{
-    font-weight: bold;
-}
-
-aside{
-    grid-area: barraLateral;
-    background-color: rgb(211, 84, 0);
-}
-
+    background-color:royalblue;
+} 
+   
 aside *{
     color: white;
-}
+}  
 
-aside div{
-    padding: 18px;
-    background-color: rgb(255, 87, 51);
+aside h4{
     margin: 5%;
-    margin-top: 40%;
-    margin-bottom: 40%;
-}
-
-aside h3{
-    margin: 5%;
-}
-
-footer{
-    grid-area: pie;
-    background-color: rgb(139, 188, 26);
-    color: white;
-}
-
-footer img{
-    float:left;
-    margin-left: 36px;
-    width: 10%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-footer .secciones{
-    float: left;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-footer div ul {
-    padding-left: 20px;
 }
 
 footer #piecito{
@@ -127,11 +58,129 @@ footer #piecito{
 }
 
 footer p{
-    padding-bottom: 17px;
-    padding-top: 17px;
+    padding-bottom: 1.8%;
+    padding-top: 1.8%;
 }
 
-section{
-    grid-area: contenido;
-    background-color: rgb(223, 228, 181);
+@media (max-width:480px){
+    .modo2{
+        display: none;
+    }
+      
+    nav li{
+        padding: 2.8%;
+        padding-top: 4.9%;
+        padding-bottom: 4.9%;
+        width: fit-content;
+        float: left;
+    } 
+             
+    aside div{
+        padding: 2%;
+        background-color: rgb(255, 87, 51);
+        margin: 4%;
+        width: 40%;
+    }
+
+    aside #sideLinks{
+        float: right;
+        margin-right: 2%;
+        margin-left: 0px;
+    }
+
+    aside #sideMenu{
+        float: left;
+        margin-left: 2%;
+        margin-right: 0px;
+    }
+
+    aside ul{
+        padding-left: 12%;
+    }        
+       
+    footer .secciones{
+        float: left;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        width: 20%;
+    }         
+}
+
+@media (min-width:480px) and (max-width:922px){
+    .modo2{
+        display: none;
+    }
+        
+    nav li{
+        padding: 3%;
+        padding-top: 4.9%;
+        padding-bottom: 4.9%;
+        width: fit-content;
+        float: left;
+    }
+        
+    aside div{
+        padding: 4%;
+        background-color: rgb(255, 87, 51);
+        margin: 5%;
+        margin-top: 40%;
+        margin-bottom: 40%;
+        width: 80%;
+    }
+
+    aside ul{
+        padding-left: 12%;
+    }
+        
+    footer .secciones{
+        float: left;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 3%;
+        margin-bottom: 4.2%;
+        width: 20%;
+    }  
+}
+
+@media (min-width:922px){ 
+    header img{
+        float:left;
+        margin-left: 2%;
+        width: 19%;
+    }
+
+    nav li{
+        padding-top: 5.9%;
+        padding-bottom: 5.9%;
+        width: fit-content;
+    }
+            
+    aside div{
+        padding: 8%;
+        background-color: rgb(255, 87, 51);
+        margin: 5%;
+        margin-top: 40%;
+        margin-bottom: 40%;
+    }       
+    
+    footer img{
+        float:left;
+        margin-left: 3%;
+        width: 10%;
+        margin-top: 4%;
+    }
+        
+    footer .secciones{
+        float: left;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 4.2%;
+        margin-bottom: 4.2%;
+    }
+        
+    footer div ul {
+        padding-left: 19%;
+    }  
 }
