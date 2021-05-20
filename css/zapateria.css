@@ -1,0 +1,196 @@
+header{
+    grid-area: cabecera;
+    background-color: white;
+    }
+    
+    nav{
+        grid-area: menu;
+        background-color: rgb(30, 148, 142);
+    }
+    
+    aside{
+        grid-area: barraLateral;
+        background-color: rgb(221, 153, 229);
+    }
+    
+    footer{
+        grid-area: pie;
+        background-color: white;
+    }
+    
+    section{
+        grid-area: contenido;
+        background-color: rgb(161, 189, 240);
+    }
+
+    body{
+        margin: 0px auto;
+        background-image: url(/img/fondoZapateria.jpg);
+    }
+    
+    nav *, section *, aside *, footer *{
+        margin: 0px auto;
+    }
+
+    header img{
+        margin-right: 24%;
+        margin-left: 24%;
+        width: 52%;
+    }
+
+    nav ul{
+        list-style: none;
+    }
+
+    section *{
+        margin: 2%;
+    }
+
+            
+    section div *{
+        margin-left: 0px;
+    }
+
+    section h3{
+        color: white;
+        text-decoration: underline;
+    }
+    
+    section p{
+        text-align: justify;
+        width: 100%;
+    }
+
+    aside *{
+        color: white;
+    }  
+
+    footer p{
+        padding-bottom: 1.8%;
+        padding-top: 1.8%;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    @media (max-width:600px){
+        main{
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 0.5fr 0.25fr 2fr 0.25fr;;
+            grid-template-areas: "cabecera"
+                                "menu"
+                                "contenido"
+                                "barraLateral"
+                                "pie";
+        }
+        
+        nav li{
+            padding: 3%;
+            float: left;
+            font-weight: bold;
+            color: white;
+        }
+
+        section div{
+            margin-bottom: 6%;
+        }
+        
+        section img{
+            float: left;
+            margin-top: 2%;
+            margin-right: 0px;
+            margin-right: 2.5%;
+        }
+                
+        aside h2{
+            margin-top: 3%;
+            text-align: center;
+            
+        } 
+        
+        aside li{
+            float: left;
+            list-style: none;
+            margin: 3%;
+        }
+
+    }
+
+    @media (min-width:600px) and (max-width:1000px){
+        main{
+            display: grid;
+            grid-template-columns: 80% 20%;
+            grid-template-rows: 0.5fr 0.25fr 2fr 0.25fr;
+            grid-template-areas: "cabecera cabecera"
+                                "menu menu"
+                                "contenido barraLateral"
+                                "pie pie";
+        }
+        
+        nav li{
+            padding-top: 2%;
+            padding-bottom: 2%;
+            padding-left: 4.5%;
+            padding-right: 4.5%;
+            float: left;
+            font-weight: bold;
+            color: white;
+        }
+        
+        section div{
+            margin-bottom: 6%;
+        }
+        
+        section img{
+            float: left;
+            margin-top: 2%;
+            margin-right: 0px;
+            margin-right: 2.5%;
+        }
+        
+        aside h2, aside li{
+            margin: 5%;
+            margin-top: 7%;
+            margin-bottom: 7%;
+        }          
+
+    }
+    
+    @media (min-width:1000px){
+        main{
+            display: grid;
+            grid-template-columns: 20% 60% 20%;
+            grid-template-rows: 0.5fr 2fr 0.25fr;
+            grid-template-areas: "cabecera cabecera cabecera"
+                                "menu contenido barraLateral "
+                                "pie pie pie";
+            padding-left: 12%;
+            padding-right: 12%;
+        }
+
+        nav li{
+            padding-top: 5.9%;
+            padding-bottom: 5.9%;
+            padding-left: 5%;
+            font-weight: bold;
+            color: white;
+        }
+        
+        section div{
+            margin-bottom: 4%;
+        }
+        
+        section img{
+            float: left;
+            margin-top: 4%;
+            margin-right: 0px;
+            margin-right: 2.5%;
+        }
+        
+        aside h2, aside li{
+            margin: 5%;
+            margin-top: 7%;
+            margin-bottom: 7%;
+        }        
+
+    }
