@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="/css/registro.css">
+    <link rel="icon" href="/img/favicon/faviconRegistro.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+       <form method="GET" action="/iniciarSesion.html">
+            <h2>REGISTRARTE</h2> 
+            <label for="inpEmail">Email:</label>
+            <input type="email" id="inpEmail" class="txt"><br>
+            <label for="inpContraseña">Clave:</label>
+            <input type="password" id="inpContraseña" class="txt"><br>
+            <label for="inp2Contraseña">Repetir:</label>
+            <input type="password" id="inp2Contraseña" class="txt"><br>
+            <input type="checkbox" id="inpTerminos">
+            <label for="inpTerminos" class="checks">He leido y acepto los Terminos y Condiciones</label><br>
+            <input type="checkbox" id="inpPolitica">
+            <label for="inpPolitica" class="checks">He leido y acepto la Politica y Privacidad</label><br>
+            <input type="checkbox" id="inpNovedades">
+            <label for="inpPolitica" class="checks">Deseo recibir novedades y promociones</label><br>
+            <input type="submit" value="CREAR CUENTA" class="frmBtn" id="btnCrear">
+            <p>Tambien puedes acceder con:</p>
+            <input type="button" value="CONTINUAR CON GOOGLE" class="frmBtn" id="btnGoogle"><br>
+            <input type="button" value="CONTINUAR CON FACEBOOK" class="frmBtn" id="btnFacebook">
+            <p>¿Tienes una cuenta?</p>
+            <input type="submit" value="INICAR SESION" class="frmBtn" id="btnInicia">
+        </form> 
+    </main>
+</body>
+</html>

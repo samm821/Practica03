@@ -35,6 +35,7 @@ header div h3{
 
 nav ul{
     list-style: none;
+    padding-left: 0px;
 }  
 
 nav li:hover{
@@ -67,17 +68,19 @@ footer p{
     }
       
     nav li{
-        padding: 2.8%;
+        padding: 4%;
         padding-top: 4.9%;
         padding-bottom: 4.9%;
         float: left;
+        font-size: smaller;
     } 
              
     aside div{
         padding: 2%;
-        background-color: rgb(255, 87, 51);
+        background-color: rgb(133, 114, 177);
         margin: 4%;
         width: 40%;
+        font-size: small;
     }
 
     aside #sideLinks{
@@ -103,6 +106,7 @@ footer p{
         margin-top: 4%;
         margin-bottom: 4%;
         width: 20%;
+        font-size: small;
     }         
 }
 
@@ -116,6 +120,7 @@ footer p{
         padding-top: 4.9%;
         padding-bottom: 4.9%;
         float: left;
+        font-size: small;
     }
         
     aside div{
@@ -124,11 +129,10 @@ footer p{
         margin: 5%;
         margin-top: 40%;
         margin-bottom: 40%;
-        width: 80%;
     }
 
     aside ul{
-        padding-left: 12%;
+        display: none;
     }
         
     footer .secciones{
@@ -148,6 +152,10 @@ footer p{
         width: 19%;
     }
 
+    header a{
+        float:right;
+    }
+
     nav li{
         padding-top: 5.9%;
         padding-bottom: 5.9%;
@@ -157,7 +165,7 @@ footer p{
             
     aside div{
         padding: 8%;
-        background-color: rgb(255, 87, 51);
+        background-color: rgb(133, 114, 177);
         margin: 5%;
         margin-top: 40%;
         margin-bottom: 40%;

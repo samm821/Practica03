@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    padding: 1%;
+    text-align: center;
+    background-color: ivory;
+}
+
+a h3{
+    color:rgb(255, 87, 51);
+}
+
+h1{
+    color: rgb(211, 84, 0); 
+    text-align: center; 
+    border:3px solid #1ABC9C ; 
+    font-family: Courier New;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+li{
+    margin-bottom: 1%;
+}
+
+hr{
+    border:3px solid #1ABC9C;
+}
+
+b{
+    color: rgb(211, 84, 0);
+}
+
+table th{
+    color:darkcyan;
+    font-weight: bolder;
+}
+
+table{
+    border:3px solid;
+    margin-right: 0px;
+    border-collapse: collapse; 
+    width: 100%;   
+}
+
+table *{
+    border:3px solid;
+    margin-right: 0px;
+    padding: 1%;
+    text-align: center;
+}
+
+.boton {
+    background-color: rgb(11, 83, 69);
+    padding: 1%;
+    float: left;
+    border: 2px solid;
+    text-decoration: none;
+    color:white;
+}
+
+.boton:hover {
+    background-color:royalblue;
+}

@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+}
+form{
+    border-radius: 2%;
+    margin: 2%;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: lavender;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: 'Lucida Sans';
+}
+
+form *{
+    margin: 2%;
+}
+
+form .checks{
+    font-weight: bold;
+    margin: 0px;
+}
+
+form label{
+    margin-right: 0px;
+}
+
+.txt{
+    width: 70%;
+    margin-left: 0px;
+}
+
+.frmBtn{
+    border: none;
+    width: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;    
+}
+
+form #btnCrear{
+    background-color:darkseagreen;
+}
+
+form #btnGoogle{
+    background-color:firebrick;
+}
+
+form #btnFacebook{
+    background-color:royalblue;
+}
+
+form #btnInicia{
+    background-color: white;
+    color: darkseagreen;
+}
+
+.frmBtn:hover{
+    background-color: lightsalmon !important;
+    border: none;
+    color: white !important;
+}
+
+@media (max-width:600px){
+    form{
+
+        width: 70%;
+        font-size: small;
+    }
+}

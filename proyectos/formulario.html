@@ -5,14 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORMULARIO OSCAR´S</title>
-    <link rel="icon" href="/img/favicon.ico">
+    <link rel="icon" href="/img/favicon/faviconForm.ico">
     <link rel="stylesheet" href="/css/estiloForm.css" type="text/css">
 </head>
 <body>
-    <div id="divTitulo">
-        <h2><img src="/img/oscar.png" alt="oscar">Encuesta de Cine: Nominados al Oscar<img src="/img/oscar.png" alt="oscar"></h2>
-    </div>
+    <img src="/img/form/oscar.png" alt="oscar">
     <div id="divContenedor">
+        <h2 id="titulo">Encuesta de Cine: Nominados al Oscar</h2>
         <form id="formulario1" name="formulario1" method="post" action="data.php">
             <fieldset id="fldDatos">
                 <legend id="lgdDatos">DATOS PERSONALES</legend>
@@ -44,14 +43,12 @@
             </fieldset>
             <fieldset id="fldArgumento">
                 <legend id="lgdArgumento">¿CUAL PELICULA ES TU FAVORITA?¿POR QUE?</legend>
-                <textarea id="txtArgumento" name="argumento"  cols="80" rows="5"></textarea>
+                <textarea id="txtArgumento" name="argumento"></textarea>
             </fieldset>
-            <div id="divBotones">
-                <input id="btnBorrar" type="reset" value="Borrar Formulario">
+            <input id="btnBorrar" type="reset" value="Borrar Formulario">
                 <input id="btnEnviar" type="submit" value="Enviar">
-            </div>
             </form>
     </div>
-    <div class="btn"><a href="/proyectos.html">REGRESAR</a></div>
+    <a href="/proyectos.html" class="boton">REGRESAR</a>
 </body>
 </html>

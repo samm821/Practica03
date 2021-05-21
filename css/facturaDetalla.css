@@ -1,0 +1,55 @@
+body{
+    padding: 6%;
+    background-color: rgb(161, 222, 224);
+    margin: 0px;
+}
+
+table{
+    margin-bottom: 3%;
+    border: 2px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table th, table td{
+    border: 2px solid black;
+}
+
+caption{
+    color: rgb(226, 177, 43); 
+    font-size: xx-large; 
+    font-style: italic; 
+    font-family: 'Lucida Sans';
+}
+
+
+.total{
+    text-align: start; 
+}
+
+.precio{
+    text-align: end;
+}
+
+.boton {
+    background-color: rgb(11, 83, 69);
+    padding: 1%;
+    float: left;
+    border: 2px solid;
+    text-decoration: none;
+    color:white;
+}
+
+.boton:hover {
+    background-color:royalblue;
+}
+
+@media (max-width:680px){
+    table {
+        font-size: small;
+        width: fit-content;
+    }
+    body{
+        padding: 2%;
+    }
+}

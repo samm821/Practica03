@@ -1,45 +1,88 @@
-#rppIcono{
-    width: 9%;
-    height: 9%;
+body{
+    margin:0px auto;
+}
+
+#nav ul{
+    list-style: none;
+    padding-left: 0px;
+    background-color:lightblue;
+    
+}  
+
+#nav {
+    float: left;
+    width: 18%;
+    background-color:lightblue;
+}
+
+#nav li:hover{
+    background-color:goldenrod;
+} 
+
+#nav li{
+    background-color:lightblue;
+    padding: 2%;
+    padding-top: 26%;
+    padding-bottom: 26%;
+    font-weight: bold;
 }
 
 #header{
-    position: sticky;
-    width:100%;
-    border: 1px solid;
-    background-color: white;
+    background-color: rgb(46, 46, 82);
 }
 
-#header h2{ 
-    margin: 4%;
-    float:left; 
+#header img{
+    width: 80%;
+   text-align: center;
 }
 
 #articulo #titulo{
-    font-weight: bolder;
     text-align: center;
+    margin-top: 0px;
 }
 
 
-#articulo #imagenNoticia {
+#articulo img {
    float: left;
-   width: 50%;
-   height: 50%;  
    margin-bottom: 1%;
    margin-right: 1%;
+   width: 50%;
 }
+
 
 #articulo p{
     text-align: justify;
-    width: 99%;
+}
 
+#articulo{
+    margin: 2%;
+    margin-bottom: 0px;
+    float: right;
+    width: 75%;
 }
 
 #datos{
-    position: relative;
-    left: 78%;
+    float: right;
+    background-color: darkgrey;
+    text-align: justify;
+    padding: 1%;
+    border: solid black 2px;
 }
 
 body{
-    background-color:aquamarine;
+    background-color:ivory;
+}
+
+.boton {
+    background-color: rgb(11, 83, 69);
+    padding: 0.5%;
+    float: left;
+    border: 2px solid;
+    text-decoration: none;
+    color:white;
+    margin: 2%;
+}
+
+.boton:hover {
+    background-color:royalblue;
 }

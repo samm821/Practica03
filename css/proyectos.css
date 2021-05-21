@@ -31,12 +31,14 @@ section img{
 
 section h2{
     margin-bottom: 0px;
+    color: rgb(87, 55, 163);
 }
 
 section h3{
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    color: rgb(87, 55, 163);;
 }
 
 section a{

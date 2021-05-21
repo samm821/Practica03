@@ -17,7 +17,7 @@ section div{
 }
 
 section h3{
-    color:rgb(255, 87, 51);
+    color:rgb(87, 55, 163);
     font-style: italic;
 }
 
@@ -28,7 +28,7 @@ section div sup, section div p, section div ul strong{
 }
 
 section table th{
-    color:darkcyan;
+    color:rgb(11, 83, 69);
     font-weight: bolder;
 }
 
@@ -50,7 +50,15 @@ section ul{
     padding-left: 3%;
 }
 
+.boton {
+    background-color: rgb(11, 83, 69);
+    padding: 0.5%;
+    float: left;
+    border: 2px solid;
+    text-decoration: none;
+    color:white;
+}
 
-
-
-
+.boton:hover {
+    background-color:royalblue;
+}
