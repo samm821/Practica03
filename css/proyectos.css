@@ -44,3 +44,28 @@ section h3{
 section a{
     padding: 2% !important; 
 }
+
+@media (max-width:480px){
+    section #divProyectos{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+        grid-template-areas: "curriculum factura"
+                             "noticia encuesta "
+                             "zapateria registro"
+                            ;
+    
+    }       
+}
+
+@media (min-width:480px) and (max-width:922px){
+    section #divProyectos{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: "curriculum factura encuesta "
+                             "noticia zapateria registro"
+                            ;
+    
+    }
+}

@@ -33,7 +33,6 @@ section #fldAcciones *{
 section #fldAcciones{
     text-align: center;
     margin-left: 4%;
-    margin-top: 6%;
     margin-bottom: 6%;
     width: 25%;
     border: none;
@@ -41,6 +40,10 @@ section #fldAcciones{
 
 input{
     width: 80%;
+}
+
+hr{
+    border: solid 1px rgb(11, 83, 69);
 }
 
 .frmBtn{
@@ -55,4 +58,26 @@ input{
 
 .frmBtn:hover {
     background-color:royalblue;
+}
+
+
+@media (max-width:480px){
+
+}
+
+@media (min-width:480px) and (max-width:922px){
+
+    section #fldDatos, #fldAcciones{
+        width: 70% !important;
+        margin-left: 16% !important;
+    }
+
+    #fldAcciones{
+        width: 70% !important;
+        margin-left: 12% !important;
+    }
+
+    form{
+        height: 80% !important;
+    }
 }

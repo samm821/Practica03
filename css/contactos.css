@@ -45,3 +45,21 @@ input, textarea{
 .frmBtn:hover {
     background-color:royalblue;
 }
+
+@media (max-width:480px){
+    section form, section div{
+        clear: left;
+        margin-left: 8%;
+        margin-top: 5%;
+        width: 80%;
+    }      
+}
+
+@media (min-width:480px) and (max-width:922px){
+    section form, section div{
+        clear: left;
+        margin-left: 8%;
+        margin-top: 5%;
+        width: 80%;
+    }
+}

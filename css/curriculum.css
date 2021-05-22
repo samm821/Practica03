@@ -62,3 +62,15 @@ section ul{
 .boton:hover {
     background-color:royalblue;
 }
+
+@media (min-width:480px) and (max-width:922px){
+
+    section *{
+        margin: 2%;
+    }
+
+    section div{
+        margin-bottom: 5%;
+    }
+
+}
