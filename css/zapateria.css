@@ -25,7 +25,7 @@ header{
 
     body{
         margin: 0px auto;
-        background-image: url(/img/zapateria/fondoZapateria.jpg);
+        background-image: url(../img/zapateria/fondoZapateria.jpg);
     }
     
     nav *, section *, aside *, footer *{
